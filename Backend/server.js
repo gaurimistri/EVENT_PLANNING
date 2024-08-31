@@ -1,6 +1,7 @@
-import app from "./app.js"
+import app from './api/app.js'; // Adjust the path to your entry point
 
-app.listen(process.env.PORT,()=>
-{
-    console.log(`Server is listening at port ${process.env.PORT}`);
-})
+const PORT = process.env.PORT || 4000;
+
+app.listen(PORT, () => {
+    console.log(`Server is listening at port ${PORT}`);
+});
