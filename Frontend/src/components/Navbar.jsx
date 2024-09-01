@@ -7,7 +7,7 @@ function Navbar() {
     return (
         <>
             <nav>
-                <div className="logo">GAUR'S<span>EVENT PLANNER</span></div>
+                <div className="logo">Gaur's Events</div>
                 <div className={show ? "navLinks showmenu" : "navLinks"}>
                     <div className="links">
                         <Link to="hero" spy={true} smooth={true} duration={500}>

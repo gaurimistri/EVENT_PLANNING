@@ -3,7 +3,7 @@ import { Link } from 'react-scroll'
 function HeroSection() {
   return (
     <section className='hero'>
-     <img src="/restaurant.jpg" alt="restaurant"/>
+     <img src="/bk.jpg" alt="restaurant"/>
      <div className="item">
         <h3>Dream Maker</h3>
         <div>

@@ -33,7 +33,7 @@ export const sendMessage = async (req, res) => {
             });
         }
 
-        console.error("Server Error:", error); // Log the error for debugging
+        console.error("Server Error:", error); 
 
         return res.status(500).json({
             success: false,

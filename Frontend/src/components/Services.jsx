@@ -35,7 +35,7 @@ function Services() {
     ]
     return (
         <div className="services container">
-         <h2>OUR SERVICES</h2>
+         <h2>Our Services</h2>
          <div className="banner">
             {
                 services.map(element=>
